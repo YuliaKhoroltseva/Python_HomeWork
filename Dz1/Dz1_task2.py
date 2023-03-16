@@ -7,4 +7,4 @@
 
 num = int (input('Введите трехзначное число:'))
 sum_num = num//100 + num//10%10 + num%10
-print (sum_num)
+print (f'{num} -> {sum_num}')
